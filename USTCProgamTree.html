@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+    
+<html>
+<head>
+<title>UTSC Program Tree</title>
+<style>
+html {font-family: Arial, Helvetica, sans-serif; color:#000000 }
+
+#container {width: 1400px; margin: 0 auto; background: #FFF}
+#header {width: 100%; height: 160px; border-bottom: 1px solid #c7c7c7; background:  #000080; }
+#logo {float: left; margin: 10px; clear: both; }
+#info {float: right; width: 250px; height: 100px; background: #000080; margin: 10px; font-size: 17px; padding: 10px; }
+#navbar {height: 50px; clear: both; }
+#navbar ul { margin: 0; padding: 0; list-style-type: none; }
+#navbar ul li { padding: 0; float: left; }
+#navbar ul li a { font-size: 16px; float: left; padding: 0 0 0 100px; display: block; color: #FFF; }
+#banner {background: #666; height: 100px; clear: both; }
+#l_column { float: left; width: 240px; height: 577px; border: 1px solid #333; color: #FFF; background: #000080; padding: 20px; }
+#l_column ul li a { font-size: 14px; float: left; display: block; color: #FFF; }
+#footer { clear: both; color: #FFF; background: #000080; width: 1380px; height: 50px; padding: 10px; }
+#main {width: 1117px; height: 620px; float: right; }
+
+</style>
+
+<script>
+    function textmodify(){
+        document.getElementById("infotest").style.fontSize = "20px";
+        document.getElementById("infotest").style.background = "black";
+    }
+
+
+</script>
+
+</head>
+<body background="background.jpg"> 
+    <h1 align="center"><b>UTSC Program Tree</b></h1>
+    <!-- CONTAINER -->
+    <div id="container">
+        <!-- HEADER -->
+        <div id = "header">
+            <div id = "logo">
+                <img src="UTSC.png" width="230" height="100">
+            </div>
+            <div id = "info">
+                <a href = "https://www.utsc.utoronto.ca">
+                    <img src="search.png" width="250" height="40">
+                </a>
+                
+            </div>
+            <div id = "navbar">
+                <ul>
+                    <li> <a href="https://www.google.ca" target="_blank" style="text-decoration: none">Test Link #1 GOOGLE</a></li>
+                    <li> <a href="https://www.youtube.ca" target="_blank" style="text-decoration: none">Test Link #2 YOUTUBE</a></li>
+                    <li> <a href="https://www.amazon.ca" target="_blank" style="text-decoration: none">Test Link #3 AMAZON</a></li>
+                    <li> <a href="https://www.apple.ca" target="_blank" style="text-decoration: none">Test Link #4 APPLE</a></li>
+                    <li> <a href="https://www.bestbuy.ca" target="_blank" style="text-decoration: none">Test Link #5 BESTBUY</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- CONTENT AREA --> 
+        <div id = "content_area">
+            <div id = "l_column">
+                 <ul>
+                    <li style="margin-bottom: 40px"> <a href="https://www.google.ca" target="_blank" style="text-decoration: none">Test Link #1 GOOGLE</a></li>
+                    <li style="margin-bottom: 40px"> <a href="https://www.youtube.ca" target="_blank" style="text-decoration: none">Test Link #2 YOUTUBE</a></li>
+                    <li style="margin-bottom: 40px"> <a href="https://www.amazon.ca" target="_blank" style="text-decoration: none">Test Link #3 AMAZON</a></li>
+                    <li style="margin-bottom: 40px"> <a href="https://www.apple.ca" target="_blank" style="text-decoration: none">Test Link #4 APPLE</a></li>
+                    <li style="margin-bottom: 40px"> <a href="https://www.bestbuy.ca" target="_blank" style="text-decoration: none">Test Link #5 BESTBUY</a></li>
+                </ul>
+            </div>
+            <div id = "main">
+                <img src="giphy.gif" width="1117" height="620">
+            </div>
+        </div>
+        <!-- FOOTER -->
+        <div id = "footer">
+            <p align="right" id = "infotest" onclick="textmodify()">Created by: Justin Lyn  Phone Number: 647-883-5439 Email: justin.lyn@mail.utoronto.ca</p>
+        </div>
+    <!-- END OF CONTAINER --> 
+    </div>
+    
+
+</body>
+
+</html>
